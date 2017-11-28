@@ -1,0 +1,21 @@
+<div class="container" ng-controller="MainCtrl">
+    <h1>welcome to contact</h1>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>phone</th>
+        </tr>
+        <thead>
+        <tbody ng-repeat="contact in contactList">
+        <tr>
+            <td>{{contact.name}}</td>
+            <td>{{contact.email}}</td>
+            <td>{{contact.phone}}</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
